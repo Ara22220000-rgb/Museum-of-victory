@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Главная</title>
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<table width="100%">
+<tr>
+<td>
+<!--Шапка сайта-->
+<header class="h1">
+<img src="logo.png" width="100px">
+<div style="margin-top: -70px; margin-bottom: 40px; margin-left: 110px;">
+<a href="register.html">Регистрация</a>
+<a href="login.html">Авторизация</a>
+<a href="profile.html">Личный кабинет</a>
+<a href="index.html#vozm">Возможности</a>
+<a href="index.html#about">О нас</a>
+<a href="index.html#news">Новости</a>
+<a href="index.html#partner">Партнёры</a>
+<a href="index.html#history">История музея</a></div>
+</header><br>
+<header class="h2">
+<img src="logo.png" width="100px">
+<div><br>
+<a href="register.html">Регистрация</a><br>
+<a href="login.html">Авторизация</a><br>
+<a href="profile.html">Личный кабинет</a><br>
+<a href="index.html#vozm">Возможности</a><br>
+<a href="index.html#about">О нас</a><br>
+<a href="index.html#news">Новости</a><br>
+<a href="index.html#partner">Партнёры</a><br>
+<a href="index.html#history">История музея</a></div>
+</header><br><br>
+</td>
+</tr>
+<tr>
+<td>
+<table id="nach">
+<tr><td>
+<h2 style="text-align: center;">Прикоснитесь к истории - ваш шаг в прошлое начинается здесь</h2>
+</td></tr>
+</table><br><br>
+<!--Секция возможности-->
+<table id="vozm">
+<tr><td>
+<h2>Возможности</h2>
+<b>Выберите тип билета</b><br><br>
+<select>
+<option  value="0" hidden checked>Выберите тип билета</option>
+<option value="1">Взрослый</option>
+<option value="2">Детский</option>
+<option value="3">Льготный</option>
+</select><br><br>
+<b>Выберите дату и время посещения</b><br><br>
+<input type="datetime-local"><br><br>
+<b>Дополнительные услуги</b><br><br>
+<label><input type="checkbox"> Экскурсия</label><br><br>
+<label><input type="checkbox"> Аудиогид</label><br><br>
+<label><input type="checkbox"> Тематические выставки</label><br><br>
+<button>Перейти к оплате</button>
+</td></tr>
+</table><br><br>
+<!--Секция о нас-->
+<table id="about">
+<tr><td>
+<h2 style="text-align: center;">О нас</h2>
+<p>Музей Великой Отечественной войны — это место памяти, героизма и уважения к подвигу наших предков. Он был основан с целью сохранения исторической правды о событиях 1941–1945 годов и передает знания о мужестве и самоотверженности советского народа.</p>
+<p>В экспозиции музея представлены подлинные артефакты военных лет: оружие, обмундирование, документы, личные вещи солдат и командиров. Вы сможете увидеть интерактивные реконструкции сражений, ознакомиться с архивными материалами и услышать воспоминания ветеранов.</p>
+<p>Особое внимание уделено тематическим выставкам, посвящённым великим битвам, партизанскому движению, роли тыла и судьбам простых людей в годы войны. Для посетителей доступны экскурсии, аудиогиды, а также образовательные программы для школьников и студентов.</p>
+<p>Посетив музей, вы сможете прикоснуться к истории, осознать цену победы и сохранить память о героях, защитивших нашу Родину.</p>
+<video src="./video/video.webm" poster="./news/5.png" width="100%" controls></video>
+</td></tr>
+</table><br><br>
+<!--Секция новости-->
+<table id="news">
+<tr><td colspan="3">
+<h2 style="text-align: center;">Новости</h2>
+</td></tr><tr><td>
+<div id="n1">
+<h3>Открытие новой выставки «Герои фронта и тыла»</h3>
+<p>Дата: 10 марта 2025 года</p>
+<img src="./news/5.png" height="250px">
+<p>Музей приглашает посетителей на уникальную экспозицию, посвящённую подвигам советских солдат и тружеников тыла. На выставке представлены редкие архивные фотографии, фронтовые письма и личные вещи воинов.</p>
+<p style="text-align: center;"><button>Подробнее</button></p>
+</div></td><td>
+<div id="n2">
+<h3>Открытая экскурсия «Оружие Победы»</h3>
+<p>Дата: 25 апреля 2025 года</p>
+<img src="./news/4.png" height="250px">
+<p>Музей приглашает посетителей на тематическую экскурсию, посвящённую легендарному оружию Великой Отечественной войны. В экспозиции представлены образцы стрелкового оружия, артиллерийские установки, танки и авиация, сыгравшие ключевую роль в победе.
+</p>
+<p style="text-align: center;"><button>Подробнее</button></p>
+</div></td><td>
+<div id="n3">
+<h3>Запуск образовательной программы «Живая история»</h3>
+<p>Дата: 15 мая 2025 года</p>
+<img src="./news/3.png" height="250px">
+<p>Музей запускает цикл лекций и интерактивных занятий для школьников и студентов. Участники смогут узнать больше о ключевых событиях войны, встретиться с историками и принять участие в викторинах и ролевых играх.
+</p>
+<p style="text-align: center;"><button>Подробнее</button></p>
+</div></td></tr>
+<tr>
+<td><div id="n4">
+<h3>Лекция «Партизаны и подполье: борьба в тылу врага»</h3>
+<p>Дата: 5 апреля 2025 года</p>
+<img src="./news/2.png" height="250px">
+<p>Музей организует встречу с историками, посвящённую деятельности партизанских отрядов. Гости смогут ознакомиться с документами, свидетельствующими о героической борьбе советского народа в оккупированных регионах.
+</p>
+<p style="text-align: center;"><button>Подробнее</button></p>
+</div></td>
+<td><div id="n5">
+<h3>Новая мультимедийная экспозиция «Дорога к Победе»</h3>
+<p>Дата: 15 апреля 2025 года</p>
+<img src="./news/1.png" height="250px">
+<p>В музее откроется инновационная выставка с использованием 3D-технологий и интерактивных стендов, позволяющих «пройти» путь от первых дней войны до Великой Победы.
+</p>
+<p style="text-align: center;"><button>Подробнее</button></p>
+</div></td>
+</tr>
+</td></tr>
+</table>
+<br><br>
+<!--Секция партнёры-->
+<table id="partner">
+<tr><td>
+<h2 style="text-align: center;">Партнёры</h2>
+<p style="text-align: center;">
+<a href="#"><img src="./partners/1.png" width="100px"></a>
+<a href="#"><img src="./partners/2.png" width="100px"></a>
+<a href="#"><img src="./partners/3.png" width="100px"></a>
+<a href="#"><img src="./partners/4.png" width="100px"></a>
+<a href="#"><img src="./partners/5.png" width="100px"></a>
+<a href="#"><img src="./partners/6.png" width="100px"></a>
+<a href="#"><img src="./partners/7.png" width="100px"></a>
+</p>
+</td></tr>
+</table><br><br>
+<!--Секция история музея-->
+<table id="history">
+<tr><td>
+<h2 style="text-align: center;">История музея</h2>
+<h3>Основание музея</h3>
+<p>Музей создан для сохранения памяти о Великой Отечественной войне. Основу экспозиции составили подлинные документы, фотографии и личные вещи участников войны.</p>
+<h3>Развитие музея</h3>
+<p>С течением времени экспозиция расширилась: появились мультимедийные залы, интерактивные выставки и образовательные программы. В фонды музея поступили новые артефакты, переданные ветеранами и поисковыми отрядами.</p>
+<h3>Значимые события</h3>
+<p>Музей проводит встречи с ветеранами, исторические лекции, реконструкции сражений и международные конференции. Создан виртуальный тур, позволяющий познакомиться с экспозицией онлайн.</p>
+<h3>Современные достижения</h3>
+<p>Сегодня музей — это крупнейший центр военно-исторического наследия с 3D-реконструкциями, интерактивными экспозициями и образовательными проектами. Он остаётся важным местом памяти и патриотического воспитания.</p>
+</td></tr>
+</table><br><br>
+<!--Секция подписка-->
+<table id="history">
+<tr><td>
+<h2>Подписка</h2>
+<input type="email" placeholder="E-mail"><br><br>
+<label><input type="checkbox"> Я подтверждаю согласие на обработку моих персональных данных</label><br><br>
+<button>Подписаться</button><br><br>
+</td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<br>
+<!--Подвал сайта-->
+<footer>
+<table width="100%">
+<tr>
+<td>&copy; 04.03.2025</td>
+<td><p>Телефон: <a href="tel:+8(800)1234567">8 (800) 123-45-67</a></p>
+<p>E-mail: <a href="mailto:mail@muzeyvov.ru">mail@muzeyvov.ru</a></p></td>
+<td><p><a href="register.html">Регистрация</a></p>
+    <a href="login.html">Авторизация</a>
+    <p><a href="profile.html">Личный кабинет</a></p>
+    <p><a href="index.html#vozm">Возможности</a></p></td>
+    <td><p><a href="index.html#about">О нас</a></p>
+        <p><a href="index.html#news">Новости</a></p>
+        <p><a href="index.html#partner">Партнёры</a></p>
+        <p><a href="index.html#history">История музея</a></p></td>
+        <td><div class="box"><a href="#" class="abox">↑</a></div></td>
+</tr>
+</table>
+</footer>
+</td>
+</tr>
+</table>
+</body>
+</html>
